@@ -5,3 +5,21 @@ body {
 h1{
   text-align: center;
 }
+ .caixa1 {
+   position: absolute;
+   background: grey;
+   width: 200px;
+   height: 200px;
+   left: 78%;
+   right: 0%;
+   bottom:12;
+ }
+ .caixa2 {
+   position: absolute;
+   background: blue;
+   width: 200px;
+   height: 200px;
+   left: 50%;
+   right: 0%;
+   bottom:12;
+ }
