@@ -1,12 +1,12 @@
 body {
-  background: #03AAF8;
+  background: #98FB98;
 }
 h1 {
   text-align: center;
 }
 .caixa1 {
   position: absolute;
-  background: #5B99F8;
+  background: #ADFF2F;
   width: 200px;
   height: 200px;
   right: 0px;
@@ -14,7 +14,7 @@ h1 {
 }
 .caixa2 {
   position: absolute;
-  background:#00F693;
+  background: #ADFF2F;
   width: 200px;
   height: 200px;
   right: 0;
@@ -23,7 +23,7 @@ h1 {
 
 .caixa3 {
   position: absolute;
-  background: #0762F3;
+  background: #ADFF2F;
   width: 200px;
   height: 200px;
   right: 205px;
@@ -31,9 +31,9 @@ h1 {
 }
 .menuPrincipal{
    position: absolute;
-   width: 100%;
+   width: 20%;
    height: 45px;
-   background: #3E19AE;
+   background: #008000;
    top: 0;
    left: 0;
 }
@@ -57,4 +57,30 @@ li a {
 li a:hover {
   color: rgb(255, 255, 255);
   background: black;
+}
+#Bacate {
+   width: 50%;
+}
+.caixaBacate {
+    position: absolute;
+    top: 45px;
+    background: #7CFC00;
+    width: 90%;
+    height: 180px;
+    margin: 20px;
+    border-color: #32CD32;
+    border-width: 20px;
+    border-style: dashed;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.caixaBacate2 {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 100px;
+  height: 180px;
+  display: flex;
+  justify-content: end;
 }
