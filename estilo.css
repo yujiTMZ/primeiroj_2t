@@ -1,5 +1,8 @@
 body {
-  background: #98FB98;
+  background: #48f148;
+  margin: 0;
+  padding: 0;
+  
 }
 h1 {
   text-align: center;
@@ -31,7 +34,7 @@ h1 {
 }
 .menuPrincipal{
    position: absolute;
-   width: 20%;
+   width: 25%;
    height: 45px;
    background: #008000;
    top: 0;
@@ -73,7 +76,7 @@ li a:hover {
     border-style: dashed;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .caixaBacate2 {
   position: absolute;
@@ -82,5 +85,19 @@ li a:hover {
   width: 100px;
   height: 180px;
   display: flex;
-  justify-content: end;
+  justify-content: right;
+}
+.rodape {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 35px;
+background: rgb(11, 148, 11);
+color: white;
+display: flex;
+justify-content: center;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
 }
