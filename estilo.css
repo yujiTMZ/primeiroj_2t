@@ -1,11 +1,18 @@
 body {
-  background: #48f148;
+  background: #94E680;
   margin: 0;
   padding: 0;
-  
+
 }
 h1 {
   text-align: center;
+  font-size: 45px;
+}
+p{
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+
 }
 .caixa1 {
   position: absolute;
@@ -36,7 +43,7 @@ h1 {
    position: absolute;
    width: 25%;
    height: 45px;
-   background: #008000;
+   background: #2EB721;
    top: 0;
    left: 0;
 }
@@ -87,16 +94,26 @@ li a:hover {
   display: flex;
   justify-content: right;
 }
+.caixaBacate3 {
+  position: absolute;
+  top: 300px;
+  right: 50px;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: right;
+}
 .rodape {
 position: absolute;
 bottom: 0;
 width: 100%;
-height: 35px;
-background: rgb(11, 148, 11);
+height: 45px;
+background: #2EB721;
 color: white;
 display: flex;
 justify-content: center;
 }
+
 .conteudo {
   position: absolute;
   top: 45px;
