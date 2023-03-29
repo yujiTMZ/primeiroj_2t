@@ -1,56 +1,63 @@
 body {
-  background: #A1F299;
-  margin: 0;
-  padding: 0;
+ 
+  background: linear-gradient(to right, #3c6950, #90b579);
 
 }
 h1 {
+  font-family:arial;
   text-align: center;
   font-size: 30px;
 }
 h2{
   text-align: center;
   font-size: 30px;
+  font-family: arial;
 }
 h3{
   text-align: center;
   font-size: 30px;
+  font-family: arial;
 }
 h4{
   text-align: left;
   font-size: 30px;
   font-weight:100;
   font-size-adjust:auto;
+  font-family: arial;
 }
 h5{
   text-align: left;
   font-size: 30px;
   font-weight:100;
   font-size-adjust:auto;
+  font-family: arial;
 }
 p{
   text-align: center;
   font-size: 20px;
   font-style: normal;
+  font-family: arial;
 }
 .beneficos{
   text-align: left;
-  font-style: normal;
-  font-weight: bold;
+  font-family: arial;
+  
 }
 .Receita{
+  font-family: arial;
   text-align: left;
   font-style: normal;
-  font-weight: bold;
+ 
 }
 .Modo{
   text-align: left;
   font-style: normal;
-  font-weight: bold;
+  font-family: arial;
+
 }
 .caixa1 {
   position: absolute;
-  background: #ADFF2F;
+  background:#96cb60;
   width: 200px;
   height: 200px;
   right: 0px;
@@ -58,7 +65,7 @@ p{
 }
 .caixa2 {
   position: absolute;
-  background: #ADFF2F;
+  background: #96cb60;
   width: 200px;
   height: 200px;
   right: 0;
@@ -67,7 +74,7 @@ p{
 
 .caixa3 {
   position: absolute;
-  background: #ADFF2F;
+  background: #96cb60;
   width: 200px;
   height: 200px;
   right: 205px;
@@ -75,59 +82,41 @@ p{
 }
 .menuPrincipal{
    position: absolute;
-   width: 25%;
-   height: 45px;
-   background:#3FCA13;
+
+   background-color: transparent;
    top: 0;
    left: 0;
+   font-family: arial;
+   font-style: normal;
+   
 }
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: 0;
+    background-color: transparent;
+    border: none;
+  font-family: arial;
 }
 li {
   float: left;
 }
+
 li a {
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: arial;
 }
+
 li a:hover {
   color: rgb(255, 255, 255);
   background: black;
 }
+
 #Bacate {
    width: 50%;
 }
-caixaBacate {
-    position: absolute;
-    top: 45px;
-    background: #7CFC00;
-    width: 90%;
-    height: 180px;
-    margin: 20px;
-    border-color: #32CD32;
-    border-width: 20px;
-    border-style: dashed;
-    padding: 20px;
-    display: flex;
-    justify-content: left;
-}
-caixaBacate2 {
-  position: absolute;
-  top: 100px;
-  right: 0;
-  width: 100px;
-  height: 180px;
-  display: flex;
-  justify-content: right;
-}
+
 .caixaBacate3 {
   position: absolute;
   top: 300px;
@@ -160,7 +149,7 @@ position: absolute;
 bottom: 0;
 width: 100%;
 height: 45px;
-background: #3FCA13;
+background:#96cb60;
 color: black;
 display: flex;
 justify-content: center;
@@ -170,7 +159,7 @@ justify-content: center;
   bottom: 0;
   width: 100%;
   height: 45px;
-  background: #3FCA13;
+  background:#96cb60;
   color: black;
   display: flex;
   justify-content: center;
@@ -180,7 +169,7 @@ justify-content: center;
   bottom: 0;
   width: 100%;
   height: 45px;
-  background: #3FCA13;
+  background:#96cb60;
   color: black;
   display: flex;
   justify-content: center;
